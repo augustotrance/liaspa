@@ -4,7 +4,7 @@ export const APP_NAME = "LiaSpa";
 export const APP_TAGLINE = "Renacer, Bienestar y Belleza";
 
 // Centralized WhatsApp Configuration
-const WA_PHONE = "541112345678";
+const WA_PHONE = "+541169283645";
 const DEFAULT_MESSAGE = "¡Hola LiaSpa! Quisiera consultar por turnos y servicios.";
 
 export const getWhatsAppUrl = (message: string = DEFAULT_MESSAGE) => {

@@ -60,20 +60,6 @@ export const ServiceCard: React.FC<Props> = ({ category, index }) => {
                     {/* CONTENT COLUMN */}
                     <div className="w-full lg:w-1/2">
                         <div className="space-y-6">
-                            <div className="flex flex-col gap-2">
-                                {/* Contrast fix: brand-600 is better than 500 on light bg */}
-                                <span className="text-brand-600 font-bold tracking-widest uppercase text-xs">
-                                    Experiencia LiaSpa
-                                </span>
-                                <h3 className="text-4xl md:text-5xl font-serif text-brand-900 leading-tight">
-                                    {category.title}
-                                </h3>
-                            </div>
-                            
-                            <p className="text-lg text-slate-500 font-light leading-relaxed">
-                                {category.description}
-                            </p>
-
                             <div className="bg-white rounded-3xl p-6 md:p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-brand-50">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                                     {category.items.map((item, idx) => (
