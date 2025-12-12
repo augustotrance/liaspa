@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
                     {/* Typography: White for maximum contrast on dark overlay */}
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white leading-[1.1] mb-8 animate-fade-in-up drop-shadow-lg" style={{ animationDelay: '0.1s' }}>
                         Renacer <br/>
-                        <span className="italic font-light text-brand-200">LiaSpa</span>
+                        <span className="not-italic font-bold text-brand-200">LiaSpa</span>
                     </h1>
                     
                     <p className="text-lg md:text-xl text-brand-100 mb-10 leading-relaxed font-light animate-fade-in-up max-w-lg drop-shadow-md" style={{ animationDelay: '0.2s' }}>
