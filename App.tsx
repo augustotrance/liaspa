@@ -38,17 +38,39 @@ function App() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {[
-                        { icon: <Clock className="w-8 h-8" />, title: "Atención Personalizada", text: "Sin prisas. Dedicamos el tiempo necesario a cada turno de manicuría, pedicuría y masajes." },
-                        { icon: <MapPin className="w-8 h-8" />, title: "Ubicación Privilegiada", text: "Fácil acceso en pleno centro, diseñado para desconectar del ruido de la ciudad." },
-                        { icon: <Instagram className="w-8 h-8" />, title: "Comunidad Beauty", text: "Seguinos para tips diarios de skincare, cuidado de uñas y bienestar." }
+                        { 
+                            icon: <Clock className="w-8 h-8" />, 
+                            title: "Atención Personalizada", 
+                            text: "Sin prisas. Dedicamos el tiempo necesario a cada turno de manicuría, pedicuría y masajes.",
+                            url: "https://wa.me/+541169283645?text=Me%20interesa%20la%20atención%20personalizada." // URL de WhatsApp
+                        },
+                        { 
+                            icon: <MapPin className="w-8 h-8" />, 
+                            title: "Ubicación", 
+                            text: "Fácil acceso en pleno centro, diseñado para desconectar del ruido de la ciudad.",
+                            url: "https://maps.app.goo.gl/iSSiQ2tdyQuJv5FL8" // URL de Maps o Instagram
+                        },
+                        { 
+                            icon: <Instagram className="w-8 h-8" />, 
+                            title: "Instagram", 
+                            text: "Seguinos para tips diarios de skincare, cuidado de uñas y bienestar.",
+                            url: "https://www.instagram.com/liaspa_manos_y_pies/" // URL de Instagram
+                        }
                     ].map((item, i) => (
-                        <div key={i} className="bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-brand-100/50">
+                        <a 
+                            key={i} 
+                            href={item.url} // Usamos la nueva URL
+                            target="_blank" // Abrir en una nueva pestaña
+                            rel="noopener noreferrer" 
+                            className="bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-brand-100/50 block cursor-pointer" // Añadimos 'block' para que <a> ocupe el espacio
+                        >
+                            {/* ... Contenido de la tarjeta ... */}
                             <div className="w-16 h-16 bg-brand-50 rounded-2xl rounded-tr-[2rem] flex items-center justify-center mx-auto mb-6 text-brand-600">
                                 {item.icon}
                             </div>
                             <h4 className="font-serif font-bold text-xl text-brand-900 mb-3">{item.title}</h4>
                             <p className="text-sm text-slate-500 leading-relaxed">{item.text}</p>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>
