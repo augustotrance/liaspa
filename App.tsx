@@ -226,21 +226,21 @@ function App() {
                 
                 <div className="border-t border-brand-900 mt-20 pt-8 text-center text-xs text-brand-950 flex flex-col md:flex-row justify-between items-center">
                     <p>
-                        &copy; {new Date().getFullYear()} LiaSpa. Diseñado por 
+                        &copy; {new Date().getFullYear()} LiaSpa. Diseñado por&nbsp; 
                         <a 
                             href="https://www.ejemplo.com/crea-studio-design" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="font-bold hover:text-white transition-colors"
                         >
-                             CREA Studio Design
+                            CREA Studio Design
                         </a>
                         .
                     </p>
                     <div className="flex flex-col gap-2 mt-4 md:mt-0 md:items-end"> 
                         <div className="flex gap-6 justify-center md:justify-end">
-                            <a href="liaspa/public/politicas de privacidad.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Política de Privacidad</a>
-                            <a href="liaspa/public/terminos y condiciones.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Términos y Condiciones</a>
+                            <a href="public/politicas de privacidad.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Política de Privacidad</a>
+                            <a href="public/terminos y condiciones.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Términos y Condiciones</a>
                         </div>
         
                         <p className="text-center md:text-right">
