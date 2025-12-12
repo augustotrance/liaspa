@@ -5,7 +5,7 @@ import { ServiceCard } from './components/ServiceCard';
 import { WhatsAppButton } from './components/WhatsAppButton';
 import { SERVICE_DATA, getWhatsAppUrl } from './constants';
 import { MapPin, Phone, Instagram, Clock, Mail } from 'lucide-react';
-import { Logo } from './components/Logo';
+import { LogoFooter } from './components/LogoFooter';
 
 function App() {
   
