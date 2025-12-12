@@ -198,7 +198,7 @@ export const SERVICE_DATA: ServiceCategory[] = [
         title: "Sol Pleno",
         iconName: "Sun",
         description: "Bronceado saludable sin exposición solar.",
-        image: "https://i.ibb.co/jkFXRNZQ/1-sm.jpg?q=80&w=2070&auto=format&fit=crop",
+        image: "https://i.ibb.co/b5ZZ50GT/jgfhtfjgh.png?q=80&w=2070&auto=format&fit=crop",
         items: [
             {
                 name: "Bronceado Sol Pleno",
