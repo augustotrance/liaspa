@@ -73,7 +73,7 @@ export const SERVICE_DATA: ServiceCategory[] = [
         title: "Pies",
         iconName: "Footprints",
         description: "Un descanso total y revitalizante para tus pies.",
-        image: "https://plus.unsplash.com/premium_photo-1661499249417-c20d6b668469?q=80&w=2070&auto=format&fit=crop",
+        image: "https://plus.unsplash.com/premium_photo-1661497613621-c15cd729b394?q=80&w=2070&auto=format&fit=crop",
         items: [
             {
                 name: "Belleza de Pies",
@@ -98,7 +98,7 @@ export const SERVICE_DATA: ServiceCategory[] = [
         title: "Cejas y Mirada",
         iconName: "Eye",
         description: "Diseño y definición que realza la belleza natural de tu mirada.",
-        image: "https://images.unsplash.com/photo-1587909209111-5097ee578ec3?q=80&w=2070&auto=format&fit=crop",
+        image: "https://plus.unsplash.com/premium_photo-1718626727165-3d2062bb8b5c?q=80&w=2070&auto=format&fit=crop",
         items: [
             {
                 name: "Perfilado de Cejas",
@@ -152,7 +152,7 @@ export const SERVICE_DATA: ServiceCategory[] = [
         title: "Tratamientos Corporales",
         iconName: "Accessibility",
         description: "Renovación de tu piel y bienestar corporal.",
-        image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop",
+        image: "https://plus.unsplash.com/premium_photo-1683121154730-4ce1686e2121?q=80&w=2070&auto=format&fit=crop",
         items: [
             {
                 name: "Exfoliación en Axilas",
@@ -198,7 +198,7 @@ export const SERVICE_DATA: ServiceCategory[] = [
         title: "Sol Pleno",
         iconName: "Sun",
         description: "Bronceado saludable sin exposición solar.",
-        image: "https://images.unsplash.com/photo-1551529834-525807d6b4f3?q=80&w=2070&auto=format&fit=crop",
+        image: "https://i.ibb.co/jkFXRNZQ/1-sm.jpg?q=80&w=2070&auto=format&fit=crop",
         items: [
             {
                 name: "Bronceado Sol Pleno",
