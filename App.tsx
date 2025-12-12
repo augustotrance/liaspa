@@ -163,19 +163,19 @@ function App() {
                                 <div className="bg-brand-900/50 p-2.5 rounded-xl text-brand-400">
                                     <MapPin className="w-5 h-5" />
                                 </div>
-                                <span className="text-brand-200">Av. Principal 1234, Local 5<br/>Buenos Aires, Argentina</span>
+                                <span className="text-200">Caseros 24, Haedo<br/>Provincia de Buenos Aires</span>
                             </li>
                             <li className="flex items-center gap-4">
                                 <div className="bg-brand-900/50 p-2.5 rounded-xl text-brand-400">
                                     <Phone className="w-5 h-5" />
                                 </div>
-                                <span className="text-brand-200">+54 11 1234-5678</span>
+                                <span className="text-200">+54 11 6928-3645</span>
                             </li>
                             <li className="flex items-center gap-4">
                                 <div className="bg-brand-900/50 p-2.5 rounded-xl text-brand-400">
                                     <Mail className="w-5 h-5" />
                                 </div>
-                                <span className="text-brand-200">turnos@liaspa.com.ar</span>
+                                <span className="text-200">liaspamanosypie@gmail.com</span>
                             </li>
                         </ul>
                     </div>
@@ -187,15 +187,15 @@ function App() {
                             <ul className="space-y-3 text-sm">
                                 <li className="flex justify-between border-b border-brand-800/50 pb-2">
                                     <span className="text-brand-300">Lun - Vie</span>
-                                    <span className="text-white font-medium">09:00 - 20:00</span>
+                                    <span className="text-white font-medium">08:00 - 18:30</span>
                                 </li>
                                 <li className="flex justify-between border-b border-brand-800/50 pb-2">
                                     <span className="text-brand-300">Sábados</span>
-                                    <span className="text-white font-medium">10:00 - 18:00</span>
+                                    <span className="text-white font-medium">08:00 - 14:00</span>
                                 </li>
                                 <li className="flex justify-between pt-1">
                                     <span className="text-brand-300">Domingos</span>
-                                    <span className="text-brand-400 font-medium">Cerrado</span>
+                                    <span className="text-white font-medium">Cerrado</span>
                                 </li>
                             </ul>
                         </div>
@@ -217,8 +217,8 @@ function App() {
                     </p>
                     <div className="flex flex-col gap-2 mt-4 md:mt-0 md:items-end"> 
                         <div className="flex gap-6 justify-center md:justify-end">
-                            <a href="public/politicas de privacidad.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Política de Privacidad</a>
-                            <a href="public/terminos y condiciones.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Términos y Condiciones</a>
+                            <a href="/liaspa/politicas.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Política de Privacidad</a>
+                            <a href="/liaspa/terminos.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Términos y Condiciones</a>
                         </div>
         
                         <p className="text-center md:text-right">
