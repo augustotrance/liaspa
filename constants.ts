@@ -73,7 +73,7 @@ export const SERVICE_DATA: ServiceCategory[] = [
         title: "Pies",
         iconName: "Footprints",
         description: "Un descanso total y revitalizante para tus pies.",
-        image: "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?q=80&w=2070&auto=format&fit=crop",
+        image: "https://plus.unsplash.com/premium_photo-1661499249417-c20d6b668469?q=80&w=2070&auto=format&fit=crop",
         items: [
             {
                 name: "Belleza de Pies",
